@@ -1,4 +1,4 @@
-homepage whonix.org
+This project is for our homepage, https://whonix.org
 
 # Development Goals
 
@@ -9,7 +9,6 @@ homepage whonix.org
 ## Compatibility
 
 ordered roughly by priority:
-
 - Tor Browser
 - Tor Browser with security slider set to maximum
 - Chromium
@@ -19,11 +18,9 @@ ordered roughly by priority:
 - other browsers
 
 ## passing html5 W3C Markup Validation
-
 https://validator.w3.org
 
 # Misc
-
 * Image conversion, resize and optimization is left to `ngx_pagespeed`.
 * Not using relative links.
   * Using hardcoded, direct, full links to whonix.org images.
