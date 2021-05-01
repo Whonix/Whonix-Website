@@ -117,13 +117,11 @@ input {
 }
 nav {
   font-size: 1em;
-
-
-  white-space: nowrap;
+  white-space: nowrap; 
 }
 @media (max-width: 480px) {
   nav {
-    font-size: 0.8em;
+    font-size: 0.8em; 
   }
 }
 nav ul {
@@ -135,18 +133,18 @@ nav ul {
   flex-wrap: nowrap;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+  
 }
 html.ie-legacy .nav-content {
   min-width: 430px;
 }
 html.ie-legacy .nav-content > ul.right {
   float: right;
-}
-nav ul {
-  display: inline-block;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 nav ul:first-child {
   -ms-flex: 0 0 auto;
@@ -521,9 +519,12 @@ nav .logomark:focus .logomark-svg {
 #download .third p {
   font-size: 0.8em;
 }
+footer{
+  margin: 10px;
+}
 footer li {
-  float: left;
-  width: 10em;
+  display: inline-block;
+  padding-right: 5px;
 }
 footer a {
   color: black;
